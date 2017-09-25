@@ -1,0 +1,43 @@
+{
+  "name": "instrument",
+  "version": "0.0.1",
+  "description": "Front-end solutions for system construction",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/application"
+  },
+  "bin": {
+    "sc": "./bin/sc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/copochonline/Instrument.git"
+  },
+  "keywords": [
+    "system construction"
+  ],
+  "author": "yulin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/copochonline/Instrument/issues"
+  },
+  "homepage": "https://github.com/copochonline/Instrument#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "commander": "^2.11.0",
+    "debug": "^3.0.1",
+    "depd": "^1.1.1",
+    "koa": "^2.3.0",
+    "react": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack": "^3.6.0",
+    "webpack-merge": "^4.1.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-plugin-react": "^7.3.0"
+  }
+}
